@@ -1,0 +1,50 @@
+.card {
+    padding: 0 6px;
+    /* float: left; */
+    display: inline-block;
+    height: 30.99999%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* padding: 4px; */
+    margin: 6px;
+    width: 30.99999%;
+
+}
+.cards{
+    display: contents;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.card-img-top {
+    width: 100px;
+    height: 100px;
+}
+.card-body{
+    overflow: hidden;
+}
+.card-title {
+    font-size: 15px bold none;
+    margin: auto;
+    padding: auto;
+    fontStyle: none;
+    /* width: 700px;         */
+    overflow: hidden;
+    
+
+}
+.list-group-item{
+    font-size: 16px;
+    fontStyle: none;
+}
